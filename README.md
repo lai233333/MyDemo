@@ -1,2 +1,3 @@
 # LApp
-init repository
+ÏîÄ¿½ØÍ¼
+
