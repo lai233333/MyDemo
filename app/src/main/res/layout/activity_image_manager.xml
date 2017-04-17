@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/tool_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                app:navigationIcon="@drawable/ic_back"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                <com.flyco.tablayout.SegmentTabLayout
+                    android:id="@+id/tl_image"
+                    android:layout_width="150dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    app:tl_indicator_anim_enable="true"
+                    app:tl_indicator_bounce_enable="false"
+                    app:tl_indicator_margin_bottom="2dp"
+                    app:tl_indicator_margin_left="2dp"
+                    app:tl_indicator_margin_right="2dp"
+                    app:tl_indicator_margin_top="2dp"
+                    app:tl_tab_space_equal="true" />
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <com.xiaolai.lapp.widget.AutoScrollViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_color"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </android.support.design.widget.CoordinatorLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dp"
+        android:visibility="gone">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_delete"
+            app:backgroundTint="@color/background_color_black"
+            app:elevation="5dp"
+            app:pressedTranslationZ="10dp"
+            app:rippleColor="@color/main_color" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/ic_cancel"
+            app:backgroundTint="@color/background_color_black"
+            app:elevation="5dp"
+            app:pressedTranslationZ="10dp"
+            app:rippleColor="@color/main_color" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_all_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/ic_all_select_no"
+            app:backgroundTint="@color/background_color_black"
+            app:elevation="5dp"
+            app:pressedTranslationZ="10dp"
+            app:rippleColor="@color/main_color" />
+    </RelativeLayout>
+</FrameLayout>

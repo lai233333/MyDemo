@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="lappdb" />
+    <version value="1" />
+    <list>
+        <mapping class="com.xiaolai.lapp.module.news.model.GankTypeInfo"/>
+        <mapping class="com.xiaolai.lapp.module.welfare.model.LocalImageInfo"/>
+    </list>
+</litepal>

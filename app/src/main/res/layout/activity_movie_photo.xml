@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    android:fitsSystemWindows="true">
+
+    <com.xiaolai.lapp.widget.PhotoViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.xiaolai.lapp.widget.PhotoViewPager>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/main_color"
+        app:navigationIcon="@drawable/ic_back_white"
+        app:titleTextColor="@color/colorPrimary"
+        android:layout_alignParentTop="true">
+
+        <ImageButton
+            android:id="@+id/ib_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_share"/>
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp">
+        <TextView
+            android:id="@+id/tv_photo_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_normal"/>
+        <TextView
+            android:id="@+id/tv_photo_desc"
+            android:layout_below="@+id/tv_photo_date"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_normal"/>
+        <TextView
+            android:id="@+id/tv_photo_useful"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/tv_photo_comment"
+            android:layout_alignParentBottom="true"
+            android:drawableLeft="@drawable/ic_love_white"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_normal"
+            android:drawablePadding="@dimen/padding_normal"/>
+
+        <TextView
+            android:id="@+id/tv_photo_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:drawableLeft="@drawable/ic_comment_white"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_normal"
+            android:drawablePadding="@dimen/padding_normal"/>
+
+    </RelativeLayout>
+</RelativeLayout>

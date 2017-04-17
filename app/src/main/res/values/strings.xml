@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">LApp</string>
+
+    <string name="action_share">分享</string>
+    <string name="share_image">"有图有真相"</string>
+    <string name="common_channel">常用频道</string>
+    <string name="other_channel">其他频道</string>
+
+    <string name="transition_movie_img">transition_movie_img</string>
+
+    <string-array name="news_channel">
+        <item>瞎逛</item>
+        <item>Android</item>
+        <item>IOS</item>
+        <item>前端</item>
+        <item>扩展资源</item>
+        <item>App</item>
+        <item>瞎推荐</item>
+        <item>富强</item>
+        <item>民主</item>
+        <item>文明</item>
+        <item>和谐</item>
+        <item>自由</item>
+        <item>平等</item>
+        <item>公正</item>
+        <item>法治</item>
+        <item>爱国</item>
+        <item>敬业</item>
+        <item>诚信</item>
+        <item>友善</item>
+    </string-array>
+
+    <string-array name="news_channel_value">
+        <item>all</item>
+        <item>Android</item>
+        <item>iOS</item>
+        <item>前端</item>
+        <item>扩展资源</item>
+        <item>App</item>
+        <item>瞎推荐</item>
+        <item>Android</item>
+        <item>iOS</item>
+        <item>前端</item>
+        <item>扩展资源</item>
+        <item>App</item>
+        <item>瞎推荐</item>
+        <item>Android</item>
+        <item>iOS</item>
+        <item>前端</item>
+        <item>扩展资源</item>
+        <item>App</item>
+        <item>瞎推荐</item>
+    </string-array>
+
+    <string-array name="item_menu">
+        <item>收藏</item>
+        <item>分享</item>
+        <item>查看</item>
+        <item>删除</item>
+    </string-array>
+
+    <string-array name="poetry">
+        <item>相顾无言，惟有泪千行</item>
+        <item>人生若只如初见，何事秋风悲画扇</item>
+        <item>珍重别拈香一瓣，记前生</item>
+        <item>赌书消得泼茶香，当时只道是寻常</item>
+        <item>君生我未生，我生君已老</item>
+        <item>恨不生同时，日日与君好</item>
+        <item>多情自古伤离别，更那堪冷落清秋节</item>
+        <item>天地合，乃敢与君绝</item>
+        <item>山盟虽在，锦书难托。莫莫莫</item>
+        <item>怕人寻问，咽泪装欢。瞒，瞒，瞒</item>
+        <item>此情无计可消除，才下眉头，却上心头</item>
+        <item>多情自古空余恨，好梦右来最易醒</item>
+        <item>相思树下说相思，思郎恨郎郎不知</item>
+        <item>独思一夜情多少，地角天涯不是长</item>
+        <item>春心莫共花争发，一寸相思一寸灰</item>
+        <item>滴不尽相思血泪抛红豆，开不完春柳春花满画楼</item>
+        <item>身无彩凤双飞翼，心有灵犀一点通</item>
+        <item>曾经沧海难为水，除却巫山不是云</item>
+    </string-array>
+
+    <string-array name="thanks_title">
+        <item>干货集中营</item>
+        <item>豆瓣电影</item>
+        <item>ButterKnife</item>
+        <item>RxJava</item>
+        <item>Retrofit</item>
+        <item>BaseRecyclerViewAdapterHelper</item>
+        <item>PhotoView</item>
+        <item>Glide</item>
+        <item>LitePal</item>
+        <item>Logger</item>
+    </string-array>
+    <string-array name="thanks_desc">
+        <item>每日分享妹子图和技术干货</item>
+        <item>豆瓣电影开放API</item>
+        <item>注解框架</item>
+        <item>响应式函数编程框架</item>
+        <item>网络请求框架</item>
+        <item> </item>
+        <item>支持手势缩放的ImageView</item>
+        <item>加载和缓存图片的框架</item>
+        <item>ORM数据库框架</item>
+        <item>日志框架</item>
+    </string-array>
+    <string-array name="thanks_url">
+        <item>http://gank.io/</item>
+        <item>https://developers.douban.com/wiki/?title=movie_v2</item>
+        <item>https://github.com/JakeWharton/butterknife</item>
+        <item>https://github.com/ReactiveX/RxJava</item>
+        <item>https://github.com/square/retrofit</item>
+        <item>https://github.com/CymChad/BaseRecyclerViewAdapterHelper</item>
+        <item>https://github.com/chrisbanes/PhotoView</item>
+        <item>https://github.com/bumptech/glide</item>
+        <item>https://github.com/LitePalFramework/LitePal</item>
+        <item>https://github.com/orhanobut/logger</item>
+    </string-array>
+</resources>

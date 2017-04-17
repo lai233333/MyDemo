@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_collection"
+        android:title="添加到收藏夹"/>
+    <item
+        android:id="@+id/item_download"
+        android:title="保存到本地"/>
+    <item
+        android:id="@+id/item_share"
+        android:title="分享给朋友"/>
+    <item
+        android:id="@+id/item_a"
+        android:title="走过路过"/>
+    <item
+        android:id="@+id/item_b"
+        android:title="你瞅啥"/>
+</menu>

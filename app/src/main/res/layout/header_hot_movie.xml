@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_top_movie"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ripple_item_bg"
+    android:layout_margin="@dimen/padding_small"
+    android:elevation="3dp">
+    <ImageView
+        android:id="@+id/iv_movie_top"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:layout_margin="@dimen/padding_small"/>
+    <TextView
+        android:id="@+id/tv_top_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_large"
+        android:text="豆瓣Top250"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_normal"
+        android:text="往事如烟 无处祭奠"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:textStyle="bold"/>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/ripple_item_bg"
+    android:layout_marginLeft="@dimen/padding_small"
+    android:layout_marginTop="@dimen/padding_small"
+    android:layout_marginBottom="@dimen/padding_small"
+    android:padding="@dimen/padding_small"
+    android:elevation="1dp">
+    <ImageView
+        android:id="@+id/iv_actor_icon"
+        android:layout_width="98dp"
+        android:layout_height="128dp"
+        android:scaleType="fitXY" />
+    <TextView
+        android:id="@+id/tv_actor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/fir_text_color"
+        android:textSize="@dimen/text_small"
+        android:maxLength="6"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/padding_small"/>
+    <TextView
+        android:id="@+id/tv_actor_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sec_text_color"
+        android:textSize="@dimen/text_smaller"
+        android:maxLength="5"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

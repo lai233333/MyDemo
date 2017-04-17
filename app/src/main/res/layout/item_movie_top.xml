@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/padding_small"
+    android:background="@drawable/ripple_item_bg"
+    android:elevation="3dp"
+    android:paddingBottom="14dp"
+    android:paddingLeft="10dp">
+
+    <ImageView
+        android:id="@+id/iv_movie_icon"
+        android:layout_width="100dp"
+        android:layout_height="132dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="14dp"
+        android:transitionName="@string/transition_movie_img"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_large"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/iv_movie_icon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_movie_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/fir_text_color"
+            android:textSize="@dimen/text_large"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RatingBar
+                android:id="@+id/rb_movie_rating"
+                style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:isIndicator="true"
+                android:numStars="5" />
+
+            <TextView
+                android:id="@+id/tv_movie_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/padding_small"
+                android:text="202"
+                android:textColor="@color/sec_text_color"
+                android:textSize="@dimen/text_small" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_movie_director"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sec_text_color"
+            android:textSize="@dimen/text_small" />
+
+        <TextView
+            android:id="@+id/tv_movie_actor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sec_text_color"
+            android:textSize="@dimen/text_small" />
+
+        <TextView
+            android:id="@+id/tv_movie_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textColor="@color/sec_text_color"
+            android:textSize="@dimen/text_small" />
+        <TextView
+            android:id="@+id/tv_movie_collect_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_small"
+            android:textSize="@dimen/text_small"
+            android:textColor="@color/fir_text_color"/>
+    </LinearLayout>
+    <com.flyco.labelview.LabelView
+        xmlns:lv="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lv_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        lv:lv_background_color="@color/background_color_black"
+        lv:lv_fill_triangle="true"
+        lv:lv_text_size="11sp"
+        lv:lv_gravity="TOP_RIGHT"/>
+</RelativeLayout>
+
