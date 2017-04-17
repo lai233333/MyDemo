@@ -35,5 +35,5 @@
 * [Logger](https://github.com/orhanobut/logger)
 
 ##关于作者
-小白一名，16年毕业，求一份Android工作（广州） 邮箱(lai233333@163.com)
+小白一名，16年毕业，急求一份Android工作（广州） 邮箱(lai233333@163.com)
 
