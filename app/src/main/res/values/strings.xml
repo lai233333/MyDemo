@@ -105,7 +105,7 @@
         <item>日志框架</item>
     </string-array>
     <string-array name="thanks_url">
-        <item>http://gank.io/</item>
+        <item>http://gank.io</item>
         <item>https://developers.douban.com/wiki/?title=movie_v2</item>
         <item>https://github.com/JakeWharton/butterknife</item>
         <item>https://github.com/ReactiveX/RxJava</item>
