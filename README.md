@@ -1,24 +1,3 @@
-##项目截图
-![2017041701](https://github.com/lai233333/MyDemo/blob/master/screenshot/2017041701.jpg)
-![2017041702](https://github.com/lai233333/MyDemo/blob/master/screenshot/2017041702.jpg)
-
-![2017041703](https://github.com/lai233333/MyDemo/blob/master/screenshot/2017041703.jpg)
-![2017041704](https://github.com/lai233333/MyDemo/blob/master/screenshot/2017041704.jpg)
-
-![2017041705](https://github.com/lai233333/MyDemo/blob/master/screenshot/2017041705.jpg)
-![2017041706](https://github.com/lai233333/MyDemo/blob/master/screenshot/2017041706.jpg)
-
-![2017041707](https://github.com/lai233333/MyDemo/blob/master/screenshot/2017041707.jpg)
-![2017041708](https://github.com/lai233333/MyDemo/blob/master/screenshot/2017041708.jpg)
-
-![2017041709](https://github.com/lai233333/MyDemo/blob/master/screenshot/2017041709.jpg)
-![20170417010](https://github.com/lai233333/MyDemo/blob/master/screenshot/20170417010.jpg)
-
-![20170417011](https://github.com/lai233333/MyDemo/blob/master/screenshot/20170417011.jpg)
-![20170417012](https://github.com/lai233333/MyDemo/blob/master/screenshot/20170417012.jpg)
-
-![20170417013](https://github.com/lai233333/MyDemo/blob/master/screenshot/20170417013.jpg)
-
 ##API来源
 [干货集中营](http://gank.io)
 
