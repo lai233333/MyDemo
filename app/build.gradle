@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'android-apt'
+//apply plugin: 'android-apt'
 //apply plugin: 'com.android.databinding'
 
 android {
@@ -19,6 +19,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildToolsVersion '26.0.2'
 }
 
 dependencies {
@@ -33,7 +34,7 @@ dependencies {
     compile "com.android.support:support-v4:${rootProject.ext.support}"
     compile "com.android.support:design:${rootProject.ext.support}"
     // butterknife
-    apt 'com.jakewharton:butterknife-compiler:8.2.1'
+    annotationProcessor  'com.jakewharton:butterknife-compiler:8.2.1'
     compile 'com.jakewharton:butterknife:8.2.1'
     // rxjava
     compile 'io.reactivex:rxjava:1.1.9'

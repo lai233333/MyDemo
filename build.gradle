@@ -5,8 +5,8 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.2'
-        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'com.android.tools.build:gradle:3.0.0'
+        //classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
         //classpath "com.android.databinding:dataBinder:1.0-rc1"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -21,13 +21,13 @@ allprojects {
 }
 
 ext {
-    compileSdk = 23
-    minSdk = 14
+    compileSdk = 26
+    minSdk = 19
     targetSdk = 23
     // 尼玛用了25.1.1发现专题界面的浮标按钮没有动画效果了。改回25.0.1
     // support = "25.1.1"
-    support = "23.+"
-    buildTools = "23.0.2"
+    support = "26.+"
+    buildTools = "26.0.2"
 }
 
 task clean(type: Delete) {
